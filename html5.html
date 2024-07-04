@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrik-to-fit=no" >
+    <title>Ygmurrsimsek *-* _ Html5And Css3</title>
+    <link rel="stylesheet" href="/htmlEğitim/css/html5AndCss3/css3.css" type="text/css">
+    <!--cssi bağladik.-->
+</head>
+
+<body>
+
+    <!--Aside Header ve Footer Yapisal Etiketix -Hygroup ve Nav Yapisal Etiketleri birbirleriyle bağlantililar nav etiki bu kisim içindir
+    <div class="container">
+        -bu section baş kısmı oluşturmak içindi.Şİmdi sağ tarafta bir section oluşturalim.
+        <header class="page-top">
+            <img src="/htmlEğitim/img/ağaç.jpg" width="200" height="100" alt="">
+            <h1>HTML 5 And CSS 3 Eğitim Seti</h1>   
+            <div style="clear: left;"></div>
+            bunun sayesinde resim headerden taşmasi engellendi.
+        </header>
+        <nav class="menu">
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="page-left">
+            <header>
+                <h2>Reklam Engelleyici Kullanimi</h2>
+            </header>
+            <article class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum sunt impedit laudantium in. Aliquam aut nisi rerum perferendis atque quos quisquam consectetur delectus voluptas debitis, laboriosam nesciunt animi exercitationem doloribus. Aliquid aliquam eos autem nesciunt assumenda. Facere quisquam cupiditate quo at ea, beatae hic doloribus quia accusamus totam! Inventore soluta voluptatem suscipit, perferendis itaque earum sint quos autem? Est tenetur, magni maxime in repellat voluptatem accusamus earum aspernatur eos molestias suscipit doloremque quia exercitationem et incidunt amet quae autem officia id alias nemo quasi rem? Reiciendis voluptatum, eius officiis sit suscipit nostrum, possimus expedita quas aliquam debitis vel accusantium nemo!</p>
+            </article>
+
+            <footer>
+                14.03.2024
+            </footer>
+        </section>
+
+        <aside class="page-right">
+            <header>
+                <h2 class="aside-header">En Çok OKunan Yazilar</h2>
+            </header>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">css3</a></li>
+            </ul>
+            <hgroup>
+                <h1>Menü 1</h1>
+                <h2>Menü 2</h2>
+                <h3>Menü 3</h3>
+                <h4>Menü 4</h4>
+                <h5>Menü 5</h5>
+                <h6>Menü 6</h6>
+            </hgroup>
+        </aside>
+        <footer class="page-bottom">2024 ygmurrsimsek kanali tüm haklari saklidir.</footer>
+
+    </div>
+
+.-->
+
+
+<!--BASİT BİR TEMA YAPIMI
+
+<header class="header">
+    <h1>HTML 5 And CSS 3 Eğitim Seti</h1> 
+</header>
+
+<nav class="menu">
+    <ul>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+DETAİLS AND SUMMARY AÇİLİR KAPANİR PENCERE
+    details ve summary aside içinde yapiliyor.
+<aside class="sidebar">
+    header var ama şimdi başka bir şet deniyoruz 
+    <header>
+        <h2 class="aside-header">Eğitim Setlerim</h2>
+    </header>
+   
+    bu details sayesinde acip kapanabilir bir aside kurmuş olduk üstüne tiklayinca aciliyor.header yerine details ile yaptık summary içinde
+    <details>
+        <summary>Eğitim Setlerim</summary>
+    <ul>
+        <li><a href="#" >HTML5 </a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS3</a></li>
+        <li><a href="#">CSS</a></li>
+    </ul>
+</details>
+<details>
+    <summary>Pictures</summary>takma ad oultşurduk
+    <img src="/htmlEğitim/img/ağaç.jpg" width="100" height="auto" alt="">
+    <img src="/htmlEğitim/img/batman.jpeg" width="100" height="auto" alt="">
+</details>
+<details open><!--burada form direkt acik geliyor
+    <summary>Login</summary>
+    <form >
+        <label for="Username:"></label>
+        <p><input type="text" name="Username" id="Username"></p>
+        <label for="Password:"></label>
+        <p><input type="password" name="Password" id="Password"></p>
+        <button>Login</button>
+    </form>
+</details>
+
+</aside>
+-->
+<!--RKA PLAN RESMİ EKLEME VE BOYUTLANDİRMA
+<section class="change">
+
+    <div id="Back">
+        <article>
+            <header>
+                <h3>Reklam Engelleyici Youtube İçerik</h3>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem tenetur atque molestias vitae, quae, aut perferendis necessitatibus provident, libero repellendus deleniti magnam enim et laboriosam porro quia maiores voluptatem officiis vero quam eligendi. Assumenda molestias ipsa quos rerum tempore provident magnam! Accusantium tempore ea nisi consectetur, quam rem. Cumque dignissimos ut laboriosam fuga. Blanditiis in, temporibus vero quas nihil aliquam.
+            </p>
+        </article>
+    </div>
+    arka plan resmi boyutlandırma
+    <article class="flower">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+    <article class="flower2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>    <article class="flower3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>    <article class="flower4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+</section>
+-->
+<!--
+<section class="change">
+
+    <header class="apce">
+        <h2>Reklam Engelleyici Kullanimi</h2>
+    </header>
+
+    <article class="content">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum sunt impedit laudantium in. Aliquam aut nisi rerum perferendis atque quos quisquam consectetur delectus voluptas debitis, laboriosam nesciunt animi exercitationem doloribus. Aliquid aliquam eos autem nesciunt assumenda. Facere quisquam cupiditate quo at ea, beatae hic doloribus quia accusamus totam! Inventore soluta voluptatem suscipit, perferendis itaque earum sint quos autem? Est tenetur, magni maxime in repellat voluptatem accusamus earum aspernatur eos molestias suscipit doloremque quia exercitationem et incidunt amet quae autem officia id alias nemo quasi rem? Reiciendis voluptatum, eius officiis sit suscipit nostrum, possimus expedita quas aliquam debitis vel accusantium nemo!</p>
+    </article>
+
+    <footer>
+        14.03.2024
+    </footer>
+
+   
+    <header>
+        <h2 class="optional">Html 5 Ve Css 3 Zor Değil</h2>
+    </header>
+    <article class="content" >
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum sunt impedit laudantium in.</p>
+    </article>
+    <footer>
+        20.03.2024
+    </footer>
+-->
+
+<!--FORM NESNELERİ YENİ EKLENEN-->
+    <!--bunun ile yani form ve datalist ile kullanicinin daha öabuk istediğini seçmesini sağladik.-->
+    <!--DATALİST FORM NESNESİ
+    <form >
+        <input name="Language" list="Languages">
+        <datalist id="Languages"> 
+        <option value="html"></option>
+        <option value="Html5"></option>
+        <option value="CSS"></option>
+        <option value="CSS3"></option>
+        <option value="PHP"></option>
+        </datalist>
+    </form>
+-->
+    
+<!--OUTOUT FORM NESNESİ
+    ilk olarak burada 0 ve 100 arasinda bir değer araliği oluşturduk başa ve sona osebepten koyduk. range tipinde bir input oluşturduk sağa sola oynatarak değer değiştiren  değeri 50de başlasın istedik ve bunu toplsttırdık number değerinde bir inputla arttırıp azaltabiliyoruz. çıktı alalım diyoruz çiktiya bir ad  veriyoruz for diyoruz hangilerine yapacağını söylemiş oluyoruz.En sonunda da formun içine oninput koyuyoruz outuput çıktısı değerini şu yap diyoruz ve int türüne öeviren parseInt ile bunları sayisal değre çevirip toplatıyoruz
+<form oninput="Calculate.value=parseInt(Number1.value)+parseInt(Number2.value)" >
+    0 <input type="range" id="Number1" name="Number1" value="50">100 <br>
+    + <br>
+    <input type="number" id="Number2" name="Number2" value="50"> <br>
+    = <br>
+    <output name="Calculate" for="Number1 Number2"></output>
+</form>
+-->
+<!--YENİ EKLENEN INPUT ATTRİBUTLERİ
+<form action="#" method="post" id="MyForm" novalidate autocomplete="on">
+    <p>Kullanici Adi: <input type="text" name="Username" id="Username" autofocus></p>   
+    bunun sayesinde direkt siteye girince kullanici adina odakliyor.
+    <p> Adiniz:<input type="text" name="Username" id="Username"></p>
+    <p>E-Posta:<input type="email" name="Email"></p>
+    <p><input type="submit" value="Gönder"></p>
+</form>  
+-->
+
+  <!--VİDEO EKLEYELİM-ses ekleyelim
+<div style="text-align: center;">
+    <!--<video width="600" controls  id="#MyVideo" autoplay>
+        <source src="/media/5 saniyelik video.mp4" type="video/mp4">
+
+    </video>
+    <audio autoplay loop>
+        <source src="" type="audio/mp4">
+    </audio>
+    -->
+<!--controls ile oynatma durdurma şekli geldi ses işareti vb. poster ile başlatmadan önce resim koyduk autoplay ile direkt oynatma ekledik.
+    <p><button onClick="playPause()">Oynat/Durdur</button>
+    <button onClick="small()">Ekrani Küçült</button>
+    <button onClick="big()">Ekrani Büyült</button>
+    <button onClick="normal()">Normal Ekran</button></p>
+
+
+</div>
+-->
+<!--JS İLE BU BUTONLARİ ÇALİŞTİRİCAZ 
+<script>
+    let newVideo=document.querySelector("#MyVideo");
+    function playPause(){
+        if(newVideo.paused){
+            newVideo.play();
+        }
+        else{
+            newVideo.pause();
+        }
+    }
+    function big(){
+        newVideo.width=800;
+    }
+    function small(){
+        newVideo.width=400;
+    }
+    function normal(){
+        newVideo.width=600;
+    }
+</script>
+-->
+
+<!--telif hakki simgiesi koyduk.-->
+
+<!--FİGURE -FİGCAPTİON-TİME AND METER ELEMENTLERİ-->
+
+<!--ESKİ İNPUT TÜRLERİ-YENİ EKLENEN İNPUT TÜRLERİ
+<form action="#" enctype="multipart/form-data">
+    <input type="hidden" name="Yagmur" id="DODO" value="123456789">
+    <p>Kullanici Adi:<input type="text" id="Username" name="Username"></p>
+    <p>Sifre:<input type="password" id="Password" name="Password"></p>
+    <p>
+        <input type="checkbox" id="deal" name="deal">Kabul Ediyorum
+    </p>
+    <p>
+        <input type="radio" id="Women" name="Gender" value="1">Bayan
+    </p>
+    <p>
+        <input type="radio" id="Man" name="Gender" value="0">Bay
+    </p>
+    <p><input type="file" id="MyFile" name="MyFile" multiple></p>
+    <p><input type="submit" value="submit"></p>
+    <input type="reset" value="reset">
+    <button>GÖNDER</button>
+    <input type="color" name="MyColor" value="#bbb">
+    <br>
+    <input type="date" name="MyDate" max="2015-12-31" min="2003-02-07">
+        max ve min değerlerle sinirlandirabiliriz
+    <input type="email" name="MyEmail">
+    <input type="number" name="number" min="0" max="100" value="10" step="2">
+  yanda artirip azaltma oku vardir.
+</form>
+-->
+
+<!--CSS3 
+127de bulunan kod-->
+<!--Text-overflow- White space- word wrap word break
+<section>
+    <article>
+        <header>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+        </header>
+        <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing.</div><br>
+        <div class="text1">Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, iure? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ratione!</div><br>
+        <div class="text2">Lorem ipsum dolor, sitaaaaa amet consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed praesentium quia cupiditate ullam rem at, exercitationem, totam minus officiis possimus iusto quaerat voluptatibus, fuga </div><br>
+
+    </article>
+</section>
+
+-->
+
+<!--ÖZEL FONT TANİMLAMA-->
+<!--Transform:translate -rotate vb. Bu x ve y ekseninde konumlandirmayi sağlar.
+
+<section class="change">
+    <article>
+        <header>
+            <h3 class="special-font">
+                Lorem ipsum dolor sit amet consectetur.
+            </h3>
+        </header>
+
+        <div class="normal">
+            Lorem, ipsum dolor.
+        </div>
+
+        <div class=" normal transform">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus culpa ea delectus recusandae. Voluptatibus pariatur, hic nostrum sequi explicabo perferendis velit, perspiciatis optio, deserunt placeat obcaecati et! Nemo quidem iste velit nam necessitatibus illo, aliquid iusto distinctio qui nostrum. Sapiente </div>
+    </article>
+</section>
+
+-->
+
+<!--TRANSİTİONS
+<section class="position">
+    <article>
+        <header>
+            <h3 class="special-font">REKLAM ENGEllEYİCİ </h3>
+        </header>
+        <div class="transitions"> HTML 5 Ve CSS 3 Eğitim SEti</div>
+TRANSİTİON ELEMANLARİ
+    
+        <div class="transitions tr ">HTML 5 VE CSS 3 EĞİTİM SETİ GEÇİŞLER</div>
+        <div class="transitions tr1">HTML 5 VE CSS 3 EĞİTİM SETİ GEÇİŞLER</div>
+        <div class="transitions tr2">HTML 5 VE CSS 3 EĞİTİM SETİ GEÇİŞLER</div>
+        
+        <div class="transitions tr3">HTML 5 VE CSS 3 EĞİTİM SETİ GEÇİŞLER</div>
+        <div class="transitions tr4">HTML 5 VE CSS 3 EĞİTİM SETİ GEÇİŞLER</div>
+
+    </article>
+</section>
+-->
+
+<!--TRANSFORMLARİ TRANSATİON İLE KULLANMA
+<section class="change">
+    <article>
+        <header>
+            <h3 class="special-font">
+                Lorem ipsum dolor sit amet.
+            </h3>
+        </header>
+
+        <div class="transition">Lorem, ipsum dolor.</div>
+    </article>
+
+</section>
+-->
+
+<!--ANİMASYONLAR
+<section class="change">
+    <article>
+        <header>
+            <h3 class="special-font">REKLAM ENGELLEYİCİ BEDAVA VİDEO ÜRETİMİNİ YOK EDECEK</h3>
+        </header>
+
+        <div class="rules"></div>
+        -->
+        <!--ANİMASYONLAR 2
+        <div class="rules time1">linear</div>
+        <div class="rules time2">ease</div>
+        <div class="rules time3">ease-in</div>
+        <div class="rules time4">ease-out</div>
+        <div class="rules time5">ease-in-out</div>
+
+    </article>
+</section>
+-->
+
+<!--3BOYUTLU DÖNEN KÜP 
+<section class="change">
+    <article>
+        <header>
+            <h3 class="special-font">REKLAM ENGELLEYİCİ BEDAVA VİDEO ÜRETİMİNİ YOK EDECEK</h3>
+        </header>
+
+        <div id="cube">
+            <div class="box">
+                <div class="front-face">ÖN</div>
+                <div class="back-face">ARKA</div>
+                <div class="left-face">SOL</div>
+                <div class="right-face">SAĞ</div>
+                <div class="top-face">ÜST</div>
+                <div class="bottom-face">AlT</div>
+
+            </div>
+        </div>
+</section>
+-->
+
+
+<!--RESİM İSLEMLERİ
+<section class="change">
+
+    <article>
+        <header>
+            <h3 class="special-font">Lorem ipsum dolor sit.</h3>
+        </header>
+
+        <img src="/htmlEğitim/img/images (1).jpeg" alt="RESİM">-->
+        <!--RESİMLİ KART
+        <div class="borderImg">
+            <img src="/htmlEğitim/img/batman.jpeg" alt="RESİm">
+            <div class="content-footer"> CSS3 ile Resimli Kart</div>
+        </div>
+    </article>
+</section>
+-->
+
+<!--RESİM FİLTRELEME 
+
+<section class="change">
+
+    <article>
+        <header>
+            <h3 class="special-font">Lorem ipsum dolor sit.</h3>
+        </header>
+
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM">
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="blur" >
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="brightness">
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="contrast">
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="grayscale">
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="huerotate">            
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="invert">            
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="Opacity">
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="saturate">
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="sepia">
+            <img src="/htmlEğitim/img/YK-00798-2.jpg" alt="RESİM" class="dropShadow">
+    </article>
+</section>    
+-->
+
+<!--HOVER OVERLAY
+<section class="change">
+
+    <article>
+        <header>
+            <h3 class="special-font"> Lorem ipsum dolor sit amet.</h3>
+        </header>
+
+        <div class="container">
+            <img src="/htmlEğitim/img/klavye.jpg" alt="klavye" class="picture">
+            <div class="overlay">
+                <div class="content-text"> CSS3 Hover</div>
+            </div> 
+        </div>
+    </article>
+</section>
+-->
+<!--HOVER OVERLAY KULLANİMİ
+<section class="change">
+
+    <article>
+        <header>
+            <h3 class="special-font"> Lorem ipsum dolor sit amet.</h3>
+        </header>
+
+        <div class="container">
+            <img src="/htmlEğitim/img/klavye.jpg" alt="klavye" class="picture">
+            <div class="overlay">
+                <div class="content-text"> CSS3 Hover</div>
+            </div> 
+        </div>
+    </article>
+</section>
+-->
+
+<!--KAPİ ÇARPMA ANİMASYonu
+
+<section class="change">
+    <article>
+        <header>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+        </header>
+
+        <img src="" alt="">
+    </article>
+</section>
+-->
+
+<!--BUTONLARA CSS UYGULAMA/
+<section class="change">
+    <article>
+        <header>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+        </header>
+
+        <button type="button" class="button button-danger" disabled>Button1</button>
+        <button type="button" class="button button-success">Button2</button>
+        <button type="button" class="button button-warning">Button3</button>
+        <button type="button" class="button button-info">Button4</button>
+        <button type="button" class="button button-black">Button5</button>
+
+    </article>
+</section>
+-->
+<!--/ANİMASYONLU BUTON YAPİMİ1/2
+<section class="change">
+    <article>
+        <header>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+        </header>
+        <div class="btn-group">
+        <button type="button" class="button button-danger" disabled>Button1</button>
+        <button type="button" class="button button-success">Button2</button>
+        <button type="button" class="button button-warning">Button3</button>
+        <button type="button" class="button button-info">Button4</button>
+        <button type="button" class="button button-black">Button5</button>
+    </div>
+
+    </article>
+</section>
+-->
+<!--DEVAMİ-->
+
+<!--SAYFANİN ALTİNDA BAŞKA SAYFAYA GEÇME YAPİMİ
+<section class="change">
+    <article>
+        <header>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, dolorum sed et quae soluta qui distinctio voluptatibus quidem beatae iure autem explicabo delectus praesentium, aliquam ea voluptate, facere consectetur. Saepe possimus, ipsa molestias impedit sapiente, illum facilis suscipit aut quibusdam architecto sequi eius. Eius ullam optio, animi est temporibus minima.</p>
+        </header>
+        <!--aktif yapma sebibimiz sayfamiz hangisindeyse o sayfa aktif olmasi için
+        <div class="pagination">
+            <a href="#">&laquo</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#" class="active">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">&raquo</a>
+        </div>
+    </article>
+</section>
+-->
+
+<!--BreadCrumb -sayfalama türüdür.-(İÇERİK HARİTASİ) YAPİMİ
+<section class="change">
+    <header>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+    </header>
+
+    <ul class="BreadCrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Winter</a></li>
+        <li>Turkey</li>
+    </ul>
+</section>
+-->
+
+<!--FLEXBOX-->
+<main>
+
+    <header class="header">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <aside class="sidebar">
+        <details>
+            <summary>Eğitim Setlerim</summary>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">Css3</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Node JS</a></li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Pİctures</summary>
+            <img src="/htmlEğitim/img/gün batımı.pjg.jpg" height="auto" width="100" alt="">
+            <img src="/htmlEğitim/img/gün batımı.pjg.jpg" height="auto" width="100" alt="">
+            <img src="/htmlEğitim/img/gün batımı.pjg.jpg" height="auto" width="100" alt="">
+        </details>
+
+        <details open> 
+            <summary>Login</summary>
+            <br>
+            <form>
+                <label>Username:</label>
+                <p><input type="text" name="Username" id="Username"></p>
+                <label>password:</label>
+                <p><input type="password" name="pass" id="pass"></p>
+                <input type="submit" id="Login" value="Login">
+            </form>
+        </details>
+    </aside>
+
+    <section class="change">
+        <article>
+            <header>
+                <h3>Lorem, ipsum dolor.</h3>
+            </header>
+            <div class="flex-container">
+                <div class="item">1.Element</div>
+                <div class="item">2.Element</div>
+                <div class="item">3.Element</div>
+            </div>
+
+        </article>
+    </section>
+
+    <!--<footer class="page-bottom">&copy; 2024 ygmurrsimsek kanali tüm haklari saklidir.</footer>-->
+</main>
+
+<!--
+<button type="button" class="button"><span>BUTTON</span></button>
+<footer class="page-bottom">&copy; 2024 ygmurrsimsek kanali tüm haklari saklidir.</footer>
+telif hakki simgiesi koyduk.-->
+</body>
+
+</html>
