@@ -1,0 +1,54 @@
+/*html1-html2*/
+
+h2{
+    text-align: center;
+}
+
+
+h3{
+    border:2px solid blueviolet ;
+    background-color: cadetblue;
+}
+p{
+    font:small-caption;
+    /*yazı tipini değiştirdik*/
+    font-size: 24;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 200%;
+    /*satirlar arasindaki boşluk*/
+    text-indent: 20px;
+}
+body{
+    /*background-image: url(/htmlEğitim/img/images.jpeg); resim ekledik.*/
+    color: black;
+}
+.first{
+    color: yellow;
+}
+/*idnin rengini değiştirdik. */
+.change{
+    border: 2px solid black;
+    background-color: aqua;
+    margin-bottom: 40px;/*bu aşağısında 40pxlik açıklık bırakır.bir dahaki işlem 40px aşağıda olur.*/
+}
+#second{
+    border: 2px solid black;
+    background-color:cadetblue ;
+    margin-top: 50px;/*üstten 50pxlik boşluk bırakir.*/
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*bu metin kutusuna sağdan hariç boşluk birakir 20pxlik.*/
+}
+/*hover , text-decoration*/
+.link a{
+
+    color: brown;
+    text-decoration: none;
+}
+.link a:hover{
+    color:green;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,839 @@
+/*p,h1,h2{
+    color: blue;
+}*/
+/*burada hepsine birden işlem uygulayacağiz.*/
+/*h2.center{
+text-align: center;
+}*/
+/*h2deki center classını istedik.Diğer centerler etkilenmez.çünkü biz tek h2dekini istedik.
+/*.style-table{
+    border: 1px solid green;
+    margin: 15px;
+}
+.style-table td,th{
+    border: 1px solid green;
+    padding: 20px;
+}
+/*tablonun td ve thına etki etmesini istiyoruz.Burada da aralara çizgiler oluşturduk.Tablolar çok yapişik.*/
+
+/*satirlara işlem yapalim.
+.style-table tr{
+    font-family:monospace;
+    satirlardaki fontlari değiştirdik.
+}
+/*.style-table th{
+    color: white;
+    background-color: crimson;
+    font-size: 15px;
+}
+.style-table td,th{
+    font-style: italic;
+}
+.abc{
+    color:darkblue;
+    background-color: antiquewhite;
+    background-image: url(/htmlEğitim/img/abd.jpg);
+    padding: 20px;
+    margin-bottom: 20px;
+    opacity: 0.85;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+*/
+/*BORDER için çalişma
+/*p{
+    padding:10px;
+}
+.style-border{
+    /*
+    border-style: solid;
+    padding: 15px;
+    border-top-width: 2px;
+    border-right-width: 4px;
+    border-bottom-width: 6px;
+    border-left-width: 8px;/*tek satırda yazalim
+    border-width: 8px 6px 4px 2px;
+    border-top-color: red;
+    border-right-color: black;
+    border-bottom-color: red;
+    border-left-color:black;
+    border-color: red black;
+    border-width:2px; 
+    border: 3px solid red ;
+    *tek satir kodda width style and color verilmiş oldu.
+    border-radius: 10px; yuvarlama yapar kenarlara.
+
+    margin-top: 40px;
+    margin-left: 50px;/*yön belirtmezsek her yönden boşluk birakir.
+}
+    */
+
+
+/**İNHERİT KİSMİ
+.special{
+    /*margin-left: 100px;
+    padding: 5px;
+    border: 2px solid red;
+    width: 78%;
+}
+
+.sub-special{
+    margin: left inherit;/* üst ebevyinden margin lefti alip buraya aynisini aliyoruz.spesical clasinin içinde bulunuyor bizim sub special bizde ayni özellikle bir margini olsun istedik bunu için İNHERİT.Tüm kodlariçin geçerli tek margin için değil.borderinide alabiliriz paddingide alabiliriz.
+    padding: inherit;
+    border: thin solid green;
+    padding: inherit;
+}
+*/
+
+/*17.EĞİTİM
+.width-height{
+    border: 3px ridge royalblue;
+    padding: 5px;
+    margin: 25px 5px 45px ;
+    max-width: 500px;
+    min-width:100px;
+    max-height: 150px;
+    min-height: 100px;
+}
+p{
+    max-width: 100px;
+}
+.outer-layer{
+    border: 4px solid darkred;
+    width: 100%;
+    padding: 15px;
+    outline-style:solid;
+    outline-width:8px ;
+    outline-color: darkblue;
+    /*tek satirda yazarsak outline:4px solid red;
+    margin: 20px;
+}
+*/
+/*Metin Biçimlendirme
+.special-text{
+    color: royalblue;
+    text-align: justify; sağdan soldan düz iner sağa sola yaslar.!!!!!
+    text-indent: 25px;
+    line-height: 25px;satirlar arasi boşluk
+
+
+}
+
+h2{
+    text-align: center;
+    text-decoration: overline; üstünü çiziyor
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    font-style: italic;
+    /*direction: ltr;hizaladi / yaslar o tarafa left to right:soldan sağa doğru yasla demek. 
+    word-spacing: 10px;
+    text-shadow: 5px 5px 3px blue;/*burada h2ye buğululuk verdik sağa 5 aşağı 5 bğululuk değeri 3px ve rengi lacivert
+}
+a{
+    text-decoration: none;
+}
+
+üstüne gelince değişen özellikler HOVER
+a:hover{
+    text-decoration: underline; hover classini istedik onda da üstüne gelincec altını çizme özelliğini istedik.
+    text-transform: uppercase;
+}
+
+/*FONT İLE İLGİLİ DEĞİŞKLİKLER
+.special-font{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:oblique;
+    font-size: 15px;/*fontun büyüklüğünü ayarlar
+    text-align: center;
+}
+*/
+
+/*FONT AWESOME
+.sp-color{
+    text-shadow: 2px 3px 3px brown;
+    color:brown;
+}
+*/
+/*google İcons
+.md-18 { font-size: 18px!important; }
+.md-24 { font-size: 24px!important; }
+.md-36 { font-size: 36px!important; }
+.md-48 { font-size: 48px!important; }
+.md-inactive { color: rgba(0, 0, 0, 0.26)!important; }
+*/
+/*linklere işlemler
+a:link{
+    color: red;
+    text-decoration: none;
+    border: 2px solid gold;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(205, 50, 187);
+    text-decoration: overline;
+}
+a:active{
+    color: aqua;
+    text-decoration:none;
+    text-align: right;
+}
+a:visited{
+    color: rgb(116, 164, 145);
+}
+*/
+/*LİSTELERE İŞLEMLER
+.style-list-ul{
+    /*list-style-type:square;
+    list-style-image:url() ;
+    list-style-position: outside;
+    list-style:square outside;
+    Tek satirda yapilicak hale getirdik en sonuncuyla.
+    background-color:blue;
+}
+.style-list-ul li{
+    margin: 15px;
+    background-color: blueviolet;
+    padding: 15px;
+    color: rgb(140, 12, 12);
+}
+.style-list-ol{
+    /*list-style-type: upper-roman inside;
+    list-style-position: inside;
+    list-style: upper-roman inside;
+    background-color: aqua;
+    padding: 20px;
+
+}
+.style-list-ol li:first-letter{
+
+    color: brown;
+    font-size: 2em; 
+    /*gördüğümüz gibi sadece baş harfleirne işlem yaptirmiş olduk
+}
+*/
+/*TABLOLARA CSS
+.special-table th,td {
+    text-align: center;/*hizalamayi sçeriz
+    padding: 10px;
+    height: 70px;
+}
+
+
+.special-table{
+    width:50%;
+    border-collapse: collapse;
+    /* height: 300px;bunun yerine padding yani iç boşlukla da bu şekilde genişletebiliriz.
+
+}
+.special-table tr{
+    vertical-align: middle;
+    border-bottom: 2px solid #ddd;
+
+}
+/*.special-table tr:hover{/*üstüne gelince o rengi vericek
+    background-color: #eee;
+}
+.special-table th{
+    background-color: darkred;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+*/
+/*24-25
+span{
+    display: block;
+    border: 2px solid darkred;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+}
+/*ul>li bu sadce ul altındaki lilere etki et demek.
+display none direkt onu yok ediyor. visitibily görünürlüğünü kaldırır o satir yok olmaz.
+.display{
+    display:none;/*o satiri yok etti
+
+}
+h1{
+    visibility: hidden;
+}
+*/
+
+/*position-float left -z index-absolute-relative
+.main{
+    border: 2px solid #343434;
+    margin: 5px;
+    width: 70%;
+    height: 350px;
+    background-color: peru;
+}
+.main >.box{
+    border: 2px solid #900; 
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    /*right: 50px;
+    bottom: 100px;
+    top: 130px;
+    left: 250px;
+    z-index:3;
+
+}
+/*absolute eski konumunu koruyamaz başka box yerini alabilir.relative ise konumunu korur.yerini alamazlar.
+.main >.box2{
+    border: 2px solid #900;
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+    padding: 5px;
+    float: left;
+    background-color: white;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    z-index: 2;
+}
+.main >.box3{
+    border: 2px solid #900; 
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+h1{
+    position: absolute;
+    z-index: 2;
+    padding: 15px;
+    width: 100%;
+    margin: 15px;
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100%;
+    text-align: center;
+    top: 0;
+
+}
+/*resim arkada kaldı position ile birlikte
+img{
+    /*position: absolute; resmi sayfadan bağımsızhale getirdi.z index ile de sırasını belirledik hangisi önde olucak diye.
+    z-index:-1;
+    
+    top: 35px;
+    left: 100px;
+    width: 100%;
+    height: 760px;
+    opacity: 0.7;
+}
+body{
+    margin: 0;
+}
+.container{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #000;
+    width: 25%;
+    color: white;
+    background-color: #000;
+}
+*/
+
+/*OVERFLOW_FLOAT_rESİM VARKEN FLOAT_DİSPLAY_CLEAR :left KOMUTLARI
+overflow
+.special-over{
+    border: 2px dashed red ;
+    background-color: aquamarine;
+    width: 40%;
+    height: 100px;
+    overflow: auto;
+}
+float
+.main{
+    width: 70½;
+    height: 400px;
+    background-color: darkolivegreen;
+    padding: 10px;
+}
+.smallbox{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid  black;
+    margin: 10px;
+    float: left;
+}
+.smallbox2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid  black;
+    margin: 10px;
+    float: right;
+}
+
+RESİM VARKEN FLOAT YAPMA 
+
+.smallbox{
+    border: 2px solid  black;
+    overflow:auto;
+}
+img{
+    float:right;
+    padding: 10px;
+    margin: 0 0 5px 10px;
+}
+
+CLEAR LEFT
+.smallbox{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid  black;
+    margin: 10px;
+    float: left;
+}
+.bigbox{(htmlde divin içnde yazı koy)
+    border ekliyoruz
+    clear left diyoruz ve alt satırdan devam ediyor.
+}
+*/
+/*psuedo class focus -first line-first letter psuedo kodu
+input:focus{
+    background: color black; 
+    color: antiquewhite;
+    border: 2px solid #000 ;
+}
+input{
+    border: 2px solid #d28585;
+    padding:10px;
+    width: 20%;
+}
+
+
+input[type="email"]:disabled{
+    background-color: aqua;
+    width: 30%;
+    color: white;
+    padding: 10px;
+}
+input[type="text"]:enabled{
+    background-color: aqua;
+    width: 30%;
+    color: white;
+    padding: 10px;
+}
+
+ilk satiriyla oynadik bazi kodlar çalişmaz fontlarla linelerle gibi özelliklerle oynanır ama border gibi bazi özellikler eklenemez.
+
+p::first-line{
+    color: red;
+}
+ p::first-letter{
+    color:black;
+    font-size: 24px;
+ }
+ */
+ /*AFTER-BEFORE -SELECTİON PSUEDO KODLARİ
+.psuedo::before{
+    content: 'Not:';
+}
+.GoOn::after{
+    content: '...';
+}
+
+.psuedo::before{
+    content: '"';
+}
+.psuedo::after{
+    content: '"';
+}
+*/
+
+/*OPACİTY
+arka plana resim ekledik öncelik sırası ve derinlik verdik yazı yazıp aşağıda opaklıkla bir yazı oluşturduk.
+body{
+    background: url(/htmlEğitim/img/ağaç.jpg) no-repeat fixed ;
+    background-size: cover;
+
+}
+
+/*ilk olarak position ile bunu sayfadan bapımsız hale getirdik.z index ile yaziya değer verip 1. yaptık
+.box{
+    background-color:#e3d5d6;
+    width: 95%;
+    height: 20px;
+    border: 2px solid black;
+    position: absolute;
+    margin-top:600px;
+    margin-left: 5px;
+    padding: 25px;
+    opacity: 0.5;
+    z-index: 1;
+}
+.cookie{
+    position: absolute;
+    font-size: 18px;
+    margin-top:610px ;
+    margin-left: 10px;
+    z-index: 2;
+    font-weight: bold;
+    color: purple;
+
+}
+.*/
+
+/*Dİkey Menü Yapimi--FİXEDLAYRAK YAPIŞKAN BİR MENÜ YAPTIK
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    width: 210px;
+    background-color:darkkhaki;
+    border: 1px solid black;
+    position: fixed;
+
+}
+body{
+    margin: 0;/*menüyü tamamen yapıştırmış oluruz.
+}
+li a{
+    display:block ;
+    color: black;
+    padding:8px 16px ;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid black;
+    text-align: center;
+}
+
+li a.active{
+    background-color: #333;
+    color:white;
+}
+li a:hover:not(.active){
+    background-color: #333;
+    color: white;
+}
+div{
+    margin-left: 220px;
+    padding: 2px 2px;
+}
+*/
+
+/*YATAY MENÜ YAPİMİ
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color: #333;
+    position: fixed;
+    top: 0;/*bununla birlikte üst tamamen yapiati  bottomalla aşaği alabilirdik
+    width: 100%;
+}
+/*lsisteler arasina çizgi olusturduk
+li{
+    float:left ;
+    border-right: 1px solid #999;
+
+}
+
+li a{
+    color: white;
+    padding: 16px 16px;
+    display: block;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+body{
+    margin:0;
+}
+
+a.active{
+    background-color: darkred;
+}
+li a:hover{
+    background-color: #111;
+    /*bunu homede de yapiyor ona engel olmak için not active ile active olani engelledik.li a:hover:not(.active)
+}
+li:last-child{
+    border-right: none;/*saga borderi en sondakinde kaldirmiş olduk
+}
+/*bununla altta kalan yazilari aşaği aldik.
+div{
+    padding:20px;
+    margin-top: 50px;
+}
+/*nasıl mobile uygun yapariz.*/
+
+/*AÇİLİR MENÜ YAPİMİ 
+dp contentte değişiklik yapilicak ondan ilk o classi çağiralim*
+.dp-Content {
+    display:none;/*var ama onları gizledik şimdilik.
+    position:absolute;bunu sayfadan bağimsiz hale getirmeliyiz ki orayaı açınca gözüksün bağimli olursa açılinca farkli bir durum olur.
+    background-color: #333;
+    z-index: 1;/*sayfada açinca ilk çikmasini istediğimiz için 1 yapariz.
+    margin-top: 0px;
+    box-shadow: 0 8px 16px 0 rgb(0,0,0,0.7);
+    padding: 0;
+
+}
+/*dropdown classinin üstüne gelindğinde dp content etkinleşssin diyoruz. kapaliydi ve biz bunu block ederek açtık.
+.dropdown:hover .dp-Content{
+    display:block;
+}
+/*dp.contentin üstüne gidince altındaki linklerin üstüne gleince siyah falan oluyor onlarla ilgili değişiklikler yapalim.
+.dp-Content a:hover{
+    background-color: darkred;
+}
+li a, .dp-Btn{
+    color: white;
+    padding: 16px 16px;
+    display: inline-block;/*yan yana koyduk içerideki listeleri*
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+*/
+
+/*YAZİLARRA DROPDOWN UYGULAMA0
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: 100%;/*sayfanint tamamini kaplattik çünkü aşağida width yapinca üzeime gel yazisi kadar yer kaplattiriyor.
+}
+/*mesaj penceresi açmaya çalışırız bu mesaj da üstüne geilnce en önde açik dursun istiyoruz o yüzden z index 1 ve absolute yaptik.
+.content{
+    position: absolute;/*diğer şeylerle ilişkisini götürüyor bağlantiyi öne çikarir.
+    z-index: 1;
+    background-color:cornsilk;
+    width:40%;/* üzerime gel yazısınız 40%sini veyahutta 100%ünü alir.
+    padding: 12px 16px;
+    border: 1px solid #f7f7f7;
+    box-shadow:0 8px 16px 0 #bbb;
+    display: none; /*ilk olarak görünürlüğünü elinden aliyoruz çünkü yaziya gelince açilcak hale getiricez.
+}
+/*dropdown clasa ait olan yaziya gelibce content clasini aç /çaliştir.görünürlüğünü açtik.
+.dropdown:hover .content{
+
+    display: block;
+}
+*/
+
+/*RESİMLERE DROPDOWN UYGULAMA
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: 100%;/*sayfanint tamamini kaplattik çünkü aşağida width yapinca üzeime gel yazisi kadar yer kaplattiriyor.
+}
+.content{
+    position: absolute;/*diğer şeylerle ilişkisini götürüyor bağlantiyi öne çikarir.
+    z-index: 1;
+    background-color:cornsilk;
+    width:40%;/* üzerime gel yazısınız 40%sini veyahutta 100%ünü alir.
+    padding: 12px 16px;
+    border: 1px solid #f7f7f7;
+    box-shadow:0 8px 16px 0 #888;
+    display: none; /*ilk olarak görünürlüğünü elinden aliyoruz çünkü yaziya gelince açilcak hale getiricez.
+}
+.content p{
+    background-color:cornsilk;
+}
+/*dropdown clasa ait olan yaziya gelibce content clasini aç /çaliştir.görünürlüğünü açtik. merak etmişti mnasıl ayarlınıyor diye şimdi anlatıcam bir yapıyım
+.dropdown:hover .content{
+
+    display: block;
+}
+.content:hover {
+    width: 500px;
+}
+.content:hover img {
+    width:inherit; 
+    border-radius: 3%;
+}
+*/
+
+
+/*TOOLTİP YAPİMİ*/
+/*ilk olarak bir inputu güzelleştirelim sola yakinliğini değiştirelim
+input{
+    border: 2px solid black;
+    padding: 5px;
+    margin-left:17%;
+}
+.tp-text{
+    background-color: darkred;
+    color: white;
+    padding: 9px 60px;
+    border-radius: 5px;
+    right:85%;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;/*gizlesin ama onun orada olduğu bilisin diye visibilty yoksa displayda olabilirdi.
+}
+.tooltip:hover .tp-text{
+    visibility: visible;
+}
+/*ok işareti oluşturduk.bunu borderle yaptık aslında ama transparent ile gizleyipp bunu oluşturduk.
+.tp-text::after{
+    content: "";/*boş bir şey oluşturduk onun içine çiziyoruz.
+    position: absolute;
+    border-style: solid;
+    border-width: 8px;
+    border-color: transparent transparent transparent  darkred;
+    left: 100%;
+}
+/*sağda veya solda olmsaına göre bu değerler leftler falan değişir
+*/
+
+/*FOTO GALERİ TASARİMİ 
+.gallery{
+    margin:10px;
+    border: 1px solid #bbb;
+    float: left;
+    width: 250px;
+    height: 300px;
+}
+/*tek böylekyken yaziların hepsiayni olmadiğindan altta olan resimler kayiyor bu sebeple yazilara düzenlemeler yapalim float leftle de resimleri yan yana getirdik. üst üste gelenler oldu
+
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold ;
+
+}
+
+/*şimdi resimlere değişiklikler yapalim
+.gallery img{
+    width: 100%;
+    height: 180px;
+}
+
+/*resimin üzerine gidince değişmesini isteiklerimizi yazalim
+.gallery:hover{
+    border: 1px solid #666;
+    box-shadow: 0 8px 16px 0 rgba(0, 0,0,0.4);/*gölge verdik
+
+}
+*/
+
+
+/*FORM ELEMANLARİNA CSS UYGULAMAK
+
+.frm-group{
+    background-color: #d6b3b3;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 4px;
+    width: 50%;
+}
+label{
+    padding: 3px 3px;
+    color:darkblue;
+    display: block;
+}
+input[type="text"],select{
+    width: 102%;
+    padding: 10px 5px;
+    margin: 10px 0 ;
+    border-radius:3px;
+    display: block;
+    box-sizing: border-box;
+    color: rgb(65,64,64);
+}
+
+button[type="button"]{
+    width: 25%;background-color: darkgray;
+    color: darkblue;
+    border-radius: 3px;
+    padding: 4px 0;
+    cursor: pointer;/*üstüne gelince el işareti yapar
+}
+button[type="button"]:hover{
+    background-color:rgb(136, 148, 142);
+}
+/*bu lattaki yazdi,ğimiz kod o kutucuğa tikladiğimizda kenarlara gölge vermek için yazilmiş bir koddur.
+input[type="text"]:focus{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+/*buraya icon koy
+#search{
+    background: white url(/htmlEğitim/img/arama.htm) no-repeat 10px 10px;
+    color: rgb(65, 64, 64);
+}
+
+textarea{
+    width: 100%;
+    height: 144px;
+    color:rgb(136, 148, 142);
+    padding: 10px 5px;
+    box-sizing: border-box;/* bu nedir bak
+    border: 1px solid #111;
+    font-size: 13px;
+    background-color: rgb(231, 222, 222);
+    resize: none;
+}
+*/
+/*CURSOR (MOUSE DEĞİŞTİRME)
+button[type="button"]{
+    width: 25%;background-color: darkgray;
+    color: darkblue;
+    border-radius: 3px;
+    padding: 4px 0;
+    cursor:pointer;/*üstüne gelince el işareti yapar
+}
+button[type="button"]:hover{
+    background-color:rgb(136, 148, 142);
+}
+*/
+
+/*COUNTER KULLANİMİ
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+body{
+    counter-reset: section;
+}
+h3{
+    counter-reset: subsection;
+}
+h3::before{
+    counter-increment: section;
+    content: counter(section) '. ';
+}
+h4::before{
+    counter-increment: subsection;
+    content:counter(section)':' counter(subsection) ;
+}
+
+burada ilk olarak bodyde sayaci sifirladik.Daha sonra h4lerin başina sayaçlari koysun istedim.Bu sebepten saymasını istedim ilk olarak increment ile .sonra content yazdırdım neyi counter olan sectionı.Fakat burada farklı başlik altindakileri de saydi bunu istemeyiz.Biz bunun bodyde değilde h3 de sıfırlanmasini istersek her h3e geldiğinde 0dan başlayacak
+/*iki tane sayaç atadik iki tane saydirmak istedik osebepten bir h3lere birde h4 lere yazdırdık bodyde sıfırlamamızın sebebi h3 için body olan h3 için subsection h4 için.1in biri 2.nin biri gibi şeyler olsun istersek h4ün önüne sectionu yazdırırız çünkü section h3 girince hep ayni değeri verir tek h4 ünki artar.h*
+
+*{
+    tüm html etiketlerine bunu uygula demektir.istisna birakmiyor
+    border: 1px solid slategray;
+    color: darkgreen;
+}
+*/
+
